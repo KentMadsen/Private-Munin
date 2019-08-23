@@ -1,14 +1,21 @@
-from Source import business
+from Source import business, \
+                   configuration
 
+# Program boundary
+# bootstraps application
+# Makes sure everything work
 class Application:
     def __init__(self):
-        business_layer = business.Business()
+        self.business_layer = business.Business()
+        self.configuration = configuration.Configuration()
 
     def initialise(self):
-        return
+        return None
 
     def execute(self):
-        return
+        while self.business_layer.getContinueWork():
+            self.business_layer.execute()
+        return None
 
     def garbage(self):
         return None
