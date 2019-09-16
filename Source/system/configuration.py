@@ -1,7 +1,12 @@
 #!/bin/bash
-from Source.system.parsers.configuration_parser import ConfigurationParser
 
+# LIBRARY [COMPILER:BEGIN]
 import os, sys
+# LIBRARY [COMPILER:END]
+
+# DEPENDENCY [COMPILER:BEGIN]
+from Source.system.parsers.configuration_parser import ConfigurationParser
+# DEPENDENCY [COMPILER:END]
 
 
 cfg_paths = '\configuration'

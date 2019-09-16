@@ -1,6 +1,10 @@
 #!/bin/bash
+
+# DEPENDENCY [COMPILER:BEGIN]
 from Source.system.controller import Controller
 from Source.system.configuration import Configuration
+# DEPENDENCY [COMPILER:END]
+
 
 class Application:
     def __init__(self):
