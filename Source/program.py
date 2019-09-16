@@ -1,3 +1,4 @@
+#!/bin/bash
 from Source.system.application import Application
 
 def main():
