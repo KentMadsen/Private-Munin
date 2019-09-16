@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python
 
 class Controller:
     def __init__(self):

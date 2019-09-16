@@ -1,5 +1,11 @@
-#!/bin/bash
+#!/bin/python
+# LIBRARY [COMPILER:COLLECT]
+# DEPENDENCY [COMPILER:COLLECT]
+# ---------------------------------------------------------------------------------------------------------------------
+
+# DEPENDENCY [COMPILER:BEGIN]
 from Source.system.application import Application
+# DEPENDENCY [COMPILER:END]
 
 def main():
     app = Application()

@@ -1,3 +1,4 @@
+#!/bin/python
 class ConfigurationParser:
     def __init__(self, cfg_path):
         self.path = cfg_path
