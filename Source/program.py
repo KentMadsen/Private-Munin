@@ -1,12 +1,12 @@
-from Source import application
+from Source.system.application import Application
 
 def main():
-    app = application.Application()
+    app = Application()
 
     app.initialise()
     app.execute()
 
-    return app.garbage()
+    return app.done()
 
 if __name__ == '__main__':
     print(main())
