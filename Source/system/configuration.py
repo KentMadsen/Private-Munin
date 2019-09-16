@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python
 
 # LIBRARY [COMPILER:BEGIN]
 import os, sys

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/python
 
 # DEPENDENCY [COMPILER:BEGIN]
 from Source.system.controller import Controller
