@@ -7,6 +7,7 @@
 from Source.system.application import Application
 # DEPENDENCY [COMPILER:END]
 
+
 def main():
     app = Application()
 
@@ -14,6 +15,7 @@ def main():
     app.execute()
 
     return app.done()
+
 
 if __name__ == '__main__':
     print(main())
