@@ -1,5 +1,8 @@
 #!/bin/bash
+from Source.system.parsers.configuration_parser import ConfigurationParser
+
 import os, sys
+
 
 cfg_paths = '\configuration'
 
@@ -34,6 +37,14 @@ class Configuration:
 
     def open_configuration_file(self, file_path):
         print("Selected configuration file: " + file_path)
+
+        parser = ConfigurationParser(file_path)
+
+        parser.open()
+
+        parser.parse()
+
+        parser.done()
 
         return
 
