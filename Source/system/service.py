@@ -2,4 +2,5 @@
 
 class Service:
     def __init__(self):
-        a = 0
+        self.name = ''
+        self.description = ''

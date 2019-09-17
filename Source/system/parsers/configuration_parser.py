@@ -1,7 +1,11 @@
 #!/bin/python
+
 class ConfigurationParser:
     def __init__(self, cfg_path):
         self.path = cfg_path
+
+        self.buffer = None
+        self.tokens = []
 
         self.file = None
 
@@ -12,13 +16,14 @@ class ConfigurationParser:
     def parse(self):
         fl = self.file.readlines()
 
-        for line in fl:
-            print( line, end='' )
-
-        print()
+#        for line in fl:
+ #           for c in line:
+  #              print(c)
 
         return
 
     def done(self):
         self.file.close()
+
+
         return
